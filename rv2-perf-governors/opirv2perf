@@ -1,0 +1,3 @@
+echo powersave | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+echo performance | tee /sys/module/pcie_aspm/parameters/policy
+echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor

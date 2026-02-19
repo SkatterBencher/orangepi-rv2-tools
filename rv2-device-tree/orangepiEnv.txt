@@ -1,0 +1,6 @@
+verbosity=1
+bootlogo=false
+overlay_prefix=x1
+fdtfile=ky/x1_orangepi-rv2.dtb
+rootdev=UUID=dcdeeea9-160e-4553-b9ba-5e6346106e86
+rootfstype=ext4

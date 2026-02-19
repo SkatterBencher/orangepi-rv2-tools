@@ -1,0 +1,14 @@
+[Unit]
+Description=Set all governors to Performance
+After=multi-user.target
+Requires=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /bin/opirv2perf
+User=root
+Group=root
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
