@@ -1,5 +1,5 @@
-OrangePi RV2 (Ky X1 / SpaceMit K1) -- Tuning & Overclocking Research
-===================================================================
+OrangePi RV2 Tuning & Overclocking Research
+===========================================
 
 This repository contains all tools, experiments, kernel patches, and documentation related to my work on the **OrangePi RV2 8GB** featuring the **Ky X1** SoC (a re-branded SpaceMit K1).
 
