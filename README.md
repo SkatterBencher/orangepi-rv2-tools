@@ -11,7 +11,7 @@ The goal of this project is to build the technical foundation for a future **Ska
 - Frequency scaling patches
 - Low-level SoC register access
 
-> This is active research. Some components are experimental or alpha quality.
+This is active research. Some components are experimental or alpha quality.
 
 * * * * *
 
@@ -26,13 +26,15 @@ Hardware Platform
 
 Repository Structure
 --------------------
-- ky-x1-kernel/        Relevant kernel files\
-- ky-x1-soc-tui/       SoC register TUI (alpha)\
-- p1-tui/              SPM8821 PMIC voltage control TUI\
-- rv2-device-tree/     Device tree modifications & experiments\
-- rv2-docs/            Documentation\
-- rv2-perf-governors/  Performance governor setup scripts + service\
-- rv2-telemetry-tui/   Live telemetry + CSV export tool
+| Folder | Description |
+| --- | --- |
+| ky-x1-kernel/ | Relevant kernel files |
+| ky-x1-soc-tui/ | SoC register TUI (alpha) |
+| p1-tui/ | SPM8821 PMIC voltage control TUI |
+| rv2-device-tree/ | Device tree modifications & experiments |
+| rv2-docs/ | Documentation |
+| rv2-perf-governors/ | Performance governor setup scripts + service |
+| rv2-telemetry-tui/ | Live telemetry + CSV export tool |
 
 * * * * *
 
